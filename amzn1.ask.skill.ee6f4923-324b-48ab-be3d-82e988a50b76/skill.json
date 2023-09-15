@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:037246855966:function:ee6f4923-324b-48ab-be3d-82e988a50b76:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:037246855966:function:ee6f4923-324b-48ab-be3d-82e988a50b76:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:037246855966:function:ee6f4923-324b-48ab-be3d-82e988a50b76:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:037246855966:function:ee6f4923-324b-48ab-be3d-82e988a50b76:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-IN": {
+          "name": "testing skill"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
